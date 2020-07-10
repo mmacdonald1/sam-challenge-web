@@ -2,16 +2,19 @@
   "name": "challenge-web",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "http-proxy-middleware": "^1.0.5",
     "react": "^16.13.1",
+    "react-amazing-proxy": "^1.0.63",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node node_modules/react-amazing-proxy/start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
