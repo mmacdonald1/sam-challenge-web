@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+/*----------------------- Main js styles ---------------------*/
+.container{
+  margin:50px 150px 100px 150px;
+}
+
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.plant-img{
+  height:40px;
+  margin-top: 13px;
+}
+
+.title-text{
+  font-size: 30px;
+  color:#6b6b6b;
+  margin-bottom: 30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
