@@ -4,7 +4,7 @@ This challenge was to create an app with React and Nestjs on a subject of my cho
 
 Wanted to dust off this project since its the stack I've been working in since I created it. I have updated this project with a seed file and commands. Then, added some new UI elements and comments.
 
-[Imgur](https://i.imgur.com/u6ctsbE.png)
+![Line Graph Image](https://i.imgur.com/u6ctsbE.png)
 
 ## Running the Project
 
