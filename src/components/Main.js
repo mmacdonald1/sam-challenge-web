@@ -109,6 +109,9 @@ class Main extends Component {
           {this.state.scatterData && this.state.scatterData[0] ? (
             <Line data={this.state.scatterData} />
           ) : null}
+          {this.state.scatterData && this.state.scatterData[0] ? (
+            <Scatter data={this.state.scatterData} />
+          ) : null}
         </div>
       </div>
     );

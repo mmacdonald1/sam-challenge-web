@@ -8,25 +8,25 @@
 }
 
 /*----------------------- Main js styles ---------------------*/
-.container{
-  margin:50px 150px 100px 150px;
+.container {
+  margin: 50px 150px 100px 150px;
 }
 
-.header-div{
+.header-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-.plant-img{
-  height:40px;
+.plant-img {
+  height: 40px;
   margin-top: 13px;
 }
 
-.title-text{
+.title-text {
   font-size: 30px;
-  color:#6b6b6b;
+  color: #6b6b6b;
   margin-bottom: 30px;
 }
 
@@ -49,6 +49,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.scatter {
+  margin-top: 30px;
 }
 
 @keyframes App-logo-spin {

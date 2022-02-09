@@ -32,7 +32,7 @@ class Line extends Component {
               position: "bottom",
               scaleLabel: {
                 display: true,
-                labelString: "Number of Plants Bought A Day",
+                labelString: "Number of Plants Purchased A Day",
               },
             },
           ],
@@ -41,7 +41,7 @@ class Line extends Component {
               position: "left",
               scaleLabel: {
                 display: true,
-                labelString: "Frequency of Number Sold",
+                labelString: "Frequency of Plant Amount Sold",
               },
             },
           ],
